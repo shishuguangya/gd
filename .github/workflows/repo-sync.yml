@@ -3,7 +3,7 @@
 name: 同步JD仓库
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '5 0-14/2 * * *'
   workflow_dispatch:
   watch:
     types: repo-sync
